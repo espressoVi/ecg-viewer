@@ -3,8 +3,8 @@ Simple program that plots ECGs for interpretation by cardiologists. This tool wa
 
 ## Instructions:
 - Make data directory and put physionet 2020 data in it
-```mkdir data'''
+```mkdir data```
 - Create plots directory
-'''mkdir plots'''
+```mkdir plots```
 - run main.py
-'''python3 main.py'''
+```python3 main.py```
