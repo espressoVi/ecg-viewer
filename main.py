@@ -234,4 +234,7 @@ def plot(filename):
     plt.close(fig)
 
 if __name__ == '__main__':
-    #plot('S0332')
+    for i,f in enumerate(os.listdir('./data')):
+        nam = f.split('.')[0]
+        plot(nam)
+        print(f'File : {nam} | {i}/{len(os.listdir("./data"))}')
